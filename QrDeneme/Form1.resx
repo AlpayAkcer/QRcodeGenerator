@@ -426,7 +426,7 @@
     <value>489, 210</value>
   </data>
   <data name="txtAdres.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;txtAdres.Name" xml:space="preserve">
     <value>txtAdres</value>
@@ -450,7 +450,7 @@
     <value>489, 34</value>
   </data>
   <data name="txtWeb.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;txtWeb.Name" xml:space="preserve">
     <value>txtWeb</value>
@@ -474,7 +474,7 @@
     <value>233, 34</value>
   </data>
   <data name="txtMobile.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;txtMobile.Name" xml:space="preserve">
     <value>txtMobile</value>
@@ -498,7 +498,7 @@
     <value>225, 34</value>
   </data>
   <data name="txtTelefon.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;txtTelefon.Name" xml:space="preserve">
     <value>txtTelefon</value>
@@ -522,7 +522,7 @@
     <value>492, 34</value>
   </data>
   <data name="txtMail.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;txtMail.Name" xml:space="preserve">
     <value>txtMail</value>
@@ -570,7 +570,7 @@
     <value>492, 34</value>
   </data>
   <data name="txtUnvan.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;txtUnvan.Name" xml:space="preserve">
     <value>txtUnvan</value>
@@ -763,7 +763,7 @@
     <value>144, 70</value>
   </data>
   <data name="btnGenerate.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="btnGenerate.Text" xml:space="preserve">
     <value>Oluştur</value>
@@ -796,7 +796,7 @@
     <value>145, 70</value>
   </data>
   <data name="btnKaydet.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="btnKaydet.Text" xml:space="preserve">
     <value>Kaydet</value>
@@ -3698,6 +3698,12 @@
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;lblVersionNumarasi.Name" xml:space="preserve">
+    <value>lblVersionNumarasi</value>
+  </data>
+  <data name="&gt;&gt;lblVersionNumarasi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;lblDateTime.Name" xml:space="preserve">
     <value>lblDateTime</value>
   </data>
@@ -3720,12 +3726,6 @@
     <value>toolStripStatusLabel2</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblVersionNumarasi.Name" xml:space="preserve">
-    <value>lblVersionNumarasi</value>
-  </data>
-  <data name="&gt;&gt;lblVersionNumarasi.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

@@ -37,6 +37,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCompany = new System.Windows.Forms.TextBox();
@@ -46,32 +47,31 @@
             this.txtTelefon = new System.Windows.Forms.TextBox();
             this.txtMail = new System.Windows.Forms.TextBox();
             this.txtSurname = new System.Windows.Forms.TextBox();
+            this.txtUnvan = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.lblVersionNumarasi = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblDateTime = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblCopyrightYear = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnGenerate = new System.Windows.Forms.Button();
+            this.btnKaydet = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblAdres = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblFirmaBilgi = new System.Windows.Forms.Label();
             this.lblAdSoyad = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtUnvan = new System.Windows.Forms.TextBox();
-            this.btnGenerate = new System.Windows.Forms.Button();
-            this.btnKaydet = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblVersionNumarasi = new System.Windows.Forms.ToolStripStatusLabel();
             this.grpBoxBilgiler.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // grpBoxBilgiler
@@ -134,6 +134,12 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Name = "label4";
             // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Name = "label9";
+            // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
@@ -184,6 +190,12 @@
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSurname_KeyPress);
             // 
+            // txtUnvan
+            // 
+            resources.ApplyResources(this.txtUnvan, "txtUnvan");
+            this.txtUnvan.Name = "txtUnvan";
+            this.txtUnvan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
+            // 
             // txtName
             // 
             resources.ApplyResources(this.txtName, "txtName");
@@ -196,6 +208,12 @@
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // timer1
             // 
@@ -213,6 +231,11 @@
             resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            // 
+            // lblVersionNumarasi
+            // 
+            this.lblVersionNumarasi.Name = "lblVersionNumarasi";
+            resources.ApplyResources(this.lblVersionNumarasi, "lblVersionNumarasi");
             // 
             // lblDateTime
             // 
@@ -241,6 +264,27 @@
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            // 
+            // btnGenerate
+            // 
+            this.btnGenerate.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnGenerate.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnGenerate, "btnGenerate");
+            this.btnGenerate.Image = global::QrDeneme.Properties.Resources.Iconsmind_Outline_Add_User_16;
+            this.btnGenerate.Name = "btnGenerate";
+            this.btnGenerate.UseVisualStyleBackColor = false;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnKaydet.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnKaydet, "btnKaydet");
+            this.btnKaydet.ForeColor = System.Drawing.Color.Black;
+            this.btnKaydet.Image = global::QrDeneme.Properties.Resources.Pictogrammers_Material_Content_save_check_outline_24;
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.UseVisualStyleBackColor = false;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // groupBox3
             // 
@@ -272,50 +316,6 @@
             resources.ApplyResources(this.lblAdSoyad, "lblAdSoyad");
             this.lblAdSoyad.Name = "lblAdSoyad";
             // 
-            // label9
-            // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Name = "label9";
-            // 
-            // txtUnvan
-            // 
-            resources.ApplyResources(this.txtUnvan, "txtUnvan");
-            this.txtUnvan.Name = "txtUnvan";
-            this.txtUnvan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
-            // 
-            // btnGenerate
-            // 
-            this.btnGenerate.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnGenerate.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnGenerate, "btnGenerate");
-            this.btnGenerate.Image = global::QrDeneme.Properties.Resources.Iconsmind_Outline_Add_User_16;
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.UseVisualStyleBackColor = false;
-            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
-            // 
-            // btnKaydet
-            // 
-            this.btnKaydet.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.btnKaydet.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnKaydet, "btnKaydet");
-            this.btnKaydet.ForeColor = System.Drawing.Color.Black;
-            this.btnKaydet.Image = global::QrDeneme.Properties.Resources.Pictogrammers_Material_Content_save_check_outline_24;
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.UseVisualStyleBackColor = false;
-            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // lblVersionNumarasi
-            // 
-            this.lblVersionNumarasi.Name = "lblVersionNumarasi";
-            resources.ApplyResources(this.lblVersionNumarasi, "lblVersionNumarasi");
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -331,12 +331,12 @@
             this.grpBoxBilgiler.ResumeLayout(false);
             this.grpBoxBilgiler.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
