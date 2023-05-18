@@ -66,6 +66,10 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblFirmaBilgi = new System.Windows.Forms.Label();
             this.lblAdSoyad = new System.Windows.Forms.Label();
+            this.txtTelefon1 = new System.Windows.Forms.TextBox();
+            this.txtFax = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.grpBoxBilgiler.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -77,9 +81,11 @@
             // grpBoxBilgiler
             // 
             this.grpBoxBilgiler.Controls.Add(this.label3);
+            this.grpBoxBilgiler.Controls.Add(this.label11);
             this.grpBoxBilgiler.Controls.Add(this.label6);
             this.grpBoxBilgiler.Controls.Add(this.label8);
             this.grpBoxBilgiler.Controls.Add(this.label7);
+            this.grpBoxBilgiler.Controls.Add(this.label10);
             this.grpBoxBilgiler.Controls.Add(this.label5);
             this.grpBoxBilgiler.Controls.Add(this.label4);
             this.grpBoxBilgiler.Controls.Add(this.label9);
@@ -88,7 +94,9 @@
             this.grpBoxBilgiler.Controls.Add(this.txtCompany);
             this.grpBoxBilgiler.Controls.Add(this.txtAdres);
             this.grpBoxBilgiler.Controls.Add(this.txtWeb);
+            this.grpBoxBilgiler.Controls.Add(this.txtFax);
             this.grpBoxBilgiler.Controls.Add(this.txtMobile);
+            this.grpBoxBilgiler.Controls.Add(this.txtTelefon1);
             this.grpBoxBilgiler.Controls.Add(this.txtTelefon);
             this.grpBoxBilgiler.Controls.Add(this.txtMail);
             this.grpBoxBilgiler.Controls.Add(this.txtSurname);
@@ -316,6 +324,30 @@
             resources.ApplyResources(this.lblAdSoyad, "lblAdSoyad");
             this.lblAdSoyad.Name = "lblAdSoyad";
             // 
+            // txtTelefon1
+            // 
+            resources.ApplyResources(this.txtTelefon1, "txtTelefon1");
+            this.txtTelefon1.Name = "txtTelefon1";
+            this.txtTelefon1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefon1_KeyPress);
+            // 
+            // txtFax
+            // 
+            resources.ApplyResources(this.txtFax, "txtFax");
+            this.txtFax.Name = "txtFax";
+            this.txtFax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFax_KeyPress);
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Name = "label10";
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Name = "label11";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -380,6 +412,10 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtUnvan;
         private System.Windows.Forms.ToolStripStatusLabel lblVersionNumarasi;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtFax;
+        private System.Windows.Forms.TextBox txtTelefon1;
     }
 }
 

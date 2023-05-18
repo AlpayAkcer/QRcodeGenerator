@@ -60,6 +60,8 @@ namespace QrDeneme
                         $"TITLE:{txtUnvan.Text}\n" +
                         $"URL; WORK: {txtWeb.Text}\n" +
                         $"TEL: {txtTelefon.Text}\n" +
+                        $"TEL: {txtTelefon1.Text}\n" +
+                        $"TEL: {txtFax.Text}\n" +
                         $"TEL: {txtMobile.Text}\n" +
                         $"EMAIL; INTERNET: {txtMail.Text}\n" +
                         $"ADR; INTL; PARCEL; WORK; CHARSET = utf - 8:; ; {txtAdres.Text};\n" +
@@ -133,6 +135,16 @@ namespace QrDeneme
         {
             e.Handled = !char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar)
                 && !char.IsSeparator(e.KeyChar);
+        }
+
+        private void txtFax_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void txtTelefon1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
     }
 }
